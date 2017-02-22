@@ -7,5 +7,5 @@
 ## Rough Content Doodle
 ![Rough Doodle](http://i.imgur.com/Aun3VQL.png)
 
-## Actual Content Doodle
+## Refined Content Doodle
 ![Refined Doodle](http://i.imgur.com/c0rxhHX.png)
