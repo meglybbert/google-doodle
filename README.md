@@ -1,16 +1,11 @@
 # Google Doodle
 
-## Brainstorm Ideas
-### Author birthdays/book publishing anniversary
-* Dumas
-* Count of Monte Cristo
-* Three Musketeers
-* The Great Gatsby
-* Lord of the Flies
+## J. C. R. Licklider
+### "Computing's Johnny Appleseed"
+* Birthdate: March 11, 1915
 
-### History of Technology
-* Babbage
-* Licklider
+## Rough Content Doodle
 
-## Content Doodle
+
+## Actual Content Doodle
 Your content goes here. 
