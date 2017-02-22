@@ -8,4 +8,4 @@
 ![Rough Doodle](http://i.imgur.com/Aun3VQL.png)
 
 ## Actual Content Doodle
-Your content goes here. 
+![Refined Doodle](http://i.imgur.com/c0rxhHX.png)
