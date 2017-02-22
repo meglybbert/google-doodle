@@ -5,7 +5,7 @@
 * Birthdate: March 11, 1915
 
 ## Rough Content Doodle
-
+![Rough Doodle](http://i.imgur.com/Aun3VQL.png)
 
 ## Actual Content Doodle
 Your content goes here. 
