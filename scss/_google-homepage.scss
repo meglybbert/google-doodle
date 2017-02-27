@@ -2,8 +2,10 @@
 
 #stage {
     background: #ccc;
-    height: 20em;
-    width: 40em;
+    height: 300px;
+    width: 600px;
+    position: relative;
+    overflow: hidden;
 }
 
 #stage #star {

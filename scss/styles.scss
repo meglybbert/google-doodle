@@ -3,6 +3,24 @@
 //Imports
 @import 'google-homepage';
 
+//Test SVG
+
+img{
+    width: 25%;
+    transform: translateY(-1000px);
+    transition: transform 1s;
+}
+
+svg{
+    width: 25%;
+}
+
+#stage:hover img{
+    transform: translateY(0px);
+}
+
+
+
 
 
 body{
