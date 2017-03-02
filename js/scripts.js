@@ -1,26 +1,15 @@
-// Randomize Image
+//Apply svg draw
+var google = $('svg').drawsvg();
+google.drawsvg('animate');
 
-//Store Image URLs
-var img0 = '../img/200.jpg';
-var img1 = '../img/300.jpg';
-var img2 = '../img/400.jpg';
 
-// Get Random Number
+//Randomize Fill Color
+//Get Random Number
 var max = 3;
 var numRand = Math.floor( Math.random() * max );
 console.log(numRand);
 
-//Show Randomized Images
-$('#random').attr( 'src', eval('img' + numRand) );
+//Show Randomized Color
+//$('.cls-2.icon').attr( 'src', eval('color' + numRand) );
 
-//Hide Circle
-$('#stage svg').hide();
-
-//Click on Button
-$('button').click(function(){
-    
-    //Show Circle
-    $('#stage svg').show('slow');
-    console.log('OK!');
-})
 

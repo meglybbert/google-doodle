@@ -1,14 +1,25 @@
 /* Stage */
-
 #stage {
-    background: #ccc;
     height: 300px;
     width: 820px;
-    position: relative;
-    overflow: hidden;
 }
 
+/*Store Background Colors*/
+$color0: red;
+$color1: blue;
+$color2: green;
 
+.color0{
+  fill: $bg0;
+}
+
+.color1{
+  fill: $bg1;
+}
+
+.color2{
+  fill: $bg2;
+}
 
 
 /* DO NOT EDIT BELOW THIS LINE */

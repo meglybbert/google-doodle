@@ -3,41 +3,4 @@
 //Imports
 @import 'google-homepage';
 
-//Test SVG
-
-img{
-    width: 25%;
-    transform: translateY(-1000px);
-    transition: transform 1s;
-}
-
-svg{
-    width: 25%;
-}
-
-#stage:hover img{
-    transform: translateY(0px);
-}
-
-
-
-
-
-body{
-    background: green;
-}
-
-//First Frames
-img#line{
-    transform: scale(.5);
-    transition: transform .5s;
-}
-
-
-//Last Frame
-img#line:hover{
-    transform: scale(1.5);
-}
-
-
 
