@@ -1,4 +1,7 @@
-/* Stage */
+// External styling from: http://codepen.io/manikoth/pen/NNNBYe.css
+
+/* Doodle Stage */
+
 #stage {
   height: 300px;
   width: 820px;
@@ -6,75 +9,213 @@
 
 .pulse0,
 .pulse1,
-.pulse2{
+.pulse2 {
   transform-origin: center;
 }
 
-.pulse0{
+.pulse0 {
   animation: glow0 4s 12.5s;
 }
-.pulse1{
+
+.pulse1 {
   animation: glow1 4s 12.5s;
 }
-.pulse2{
+
+.pulse2 {
   animation: glow2 4s 12.5s;
 }
 
-/*CSS Animation*/
-@keyframes glow0 {
-  0% { 
+
+/*CSS Animation with Vendor Prefixes*/
+@-webkit-keyframes glow0 {
+  0% {
     fill: gray;
     transform: scale(.95);
   }
-  
-  50% { 
+  50% {
     fill: DodgerBlue;
     transform: scale(1.2);
     opacity: .8;
-
   }
-  
-  100%{ 
+  100% {
+    fill: gray;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-o-keyframes glow0 {
+  0% {
+    fill: gray;
+    transform: scale(.95);
+  }
+  50% {
+    fill: DodgerBlue;
+    transform: scale(1.2);
+    opacity: .8;
+  }
+  100% {
+    fill: gray;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-moz-keyframes glow0 {
+  0% {
+    fill: gray;
+    transform: scale(.95);
+  }
+  50% {
+    fill: DodgerBlue;
+    transform: scale(1.2);
+    opacity: .8;
+  }
+  100% {
+    fill: gray;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes glow0 {
+  0% {
+    fill: gray;
+    transform: scale(.95);
+  }
+  50% {
+    fill: DodgerBlue;
+    transform: scale(1.2);
+    opacity: .8;
+  }
+  100% {
     fill: gray;
     transform: scale(1);
     opacity: 1;
   }
 }
 
-@keyframes glow1 {
-  0% { 
+@-webkit-keyframes glow1 {
+  0% {
     fill: gray;
     transform: scale(.95);
   }
-  
-  50% { 
+  50% {
     fill: MediumSpringGreen;
     transform: scale(1.2);
     opacity: .8;
-
   }
-  
-  100%{ 
+  100% {
+    fill: gray;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-o-keyframes glow1 {
+  0% {
+    fill: gray;
+    transform: scale(.95);
+  }
+  50% {
+    fill: MediumSpringGreen;
+    transform: scale(1.2);
+    opacity: .8;
+  }
+  100% {
+    fill: gray;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-moz-keyframes glow1 {
+  0% {
+    fill: gray;
+    transform: scale(.95);
+  }
+  50% {
+    fill: MediumSpringGreen;
+    transform: scale(1.2);
+    opacity: .8;
+  }
+  100% {
+    fill: gray;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes glow1 {
+  0% {
+    fill: gray;
+    transform: scale(.95);
+  }
+  50% {
+    fill: MediumSpringGreen;
+    transform: scale(1.2);
+    opacity: .8;
+  }
+  100% {
     fill: gray;
     transform: scale(1);
     opacity: 1;
   }
 }
 
-@keyframes glow2 {
-  0% { 
+@-webkit-keyframes glow2 {
+  0% {
     fill: gray;
     transform: scale(.95);
   }
-  
-  50% { 
+  50% {
     fill: Violet;
     transform: scale(1.2);
     opacity: .8;
-
   }
-  
-  100%{ 
+  100% {
+    fill: gray;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-o-keyframes glow2 {
+  0% {
+    fill: gray;
+    transform: scale(.95);
+  }
+  50% {
+    fill: Violet;
+    transform: scale(1.2);
+    opacity: .8;
+  }
+  100% {
+    fill: gray;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-moz-keyframes glow2 {
+  0% {
+    fill: gray;
+    transform: scale(.95);
+  }
+  50% {
+    fill: Violet;
+    transform: scale(1.2);
+    opacity: .8;
+  }
+  100% {
+    fill: gray;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes glow2 {
+  0% {
+    fill: gray;
+    transform: scale(.95);
+  }
+  50% {
+    fill: Violet;
+    transform: scale(1.2);
+    opacity: .8;
+  }
+  100% {
     fill: gray;
     transform: scale(1);
     opacity: 1;
