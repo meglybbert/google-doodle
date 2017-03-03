@@ -1,9 +1,9 @@
 var google = $('svg').drawsvg();
 
 //Random Number Generator
-//var limit = 3;
-//var randNum = Math.floor(Math.random() * limit);
-//console.log(randNum);
+var limit = 3;
+var randNum = Math.floor(Math.random() * limit);
+console.log(randNum);
 
 //Click on stage
 $('#stage').click(function () {
@@ -15,5 +15,5 @@ $('#stage').click(function () {
     $target = $('.cls-2.icon');
     //apply randomized animation/color to the icons and reset 
     $target.removeClass('pulse' + randNum);
-    setTimeout("$target.addClass('pulse' + randNum)", 100);
+    setTimeout("$target.addClass('pulse'+randNum);", 100);
 });

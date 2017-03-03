@@ -14,52 +14,23 @@
 }
 
 .pulse0 {
+  -webkit-animation: glow0 4s 12.5s;
   animation: glow0 4s 12.5s;
 }
 
 .pulse1 {
+  -webkit-animation: glow1 4s 12.5s;
   animation: glow1 4s 12.5s;
 }
 
 .pulse2 {
+  -webkit-animation: glow2 4s 12.5s;
   animation: glow2 4s 12.5s;
 }
 
 
 /*CSS Animation with Vendor Prefixes*/
 @-webkit-keyframes glow0 {
-  0% {
-    fill: gray;
-    transform: scale(.95);
-  }
-  50% {
-    fill: DodgerBlue;
-    transform: scale(1.2);
-    opacity: .8;
-  }
-  100% {
-    fill: gray;
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-@-o-keyframes glow0 {
-  0% {
-    fill: gray;
-    transform: scale(.95);
-  }
-  50% {
-    fill: DodgerBlue;
-    transform: scale(1.2);
-    opacity: .8;
-  }
-  100% {
-    fill: gray;
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-@-moz-keyframes glow0 {
   0% {
     fill: gray;
     transform: scale(.95);
@@ -108,38 +79,6 @@
     opacity: 1;
   }
 }
-@-o-keyframes glow1 {
-  0% {
-    fill: gray;
-    transform: scale(.95);
-  }
-  50% {
-    fill: MediumSpringGreen;
-    transform: scale(1.2);
-    opacity: .8;
-  }
-  100% {
-    fill: gray;
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-@-moz-keyframes glow1 {
-  0% {
-    fill: gray;
-    transform: scale(.95);
-  }
-  50% {
-    fill: MediumSpringGreen;
-    transform: scale(1.2);
-    opacity: .8;
-  }
-  100% {
-    fill: gray;
-    transform: scale(1);
-    opacity: 1;
-  }
-}
 @keyframes glow1 {
   0% {
     fill: gray;
@@ -158,38 +97,6 @@
 }
 
 @-webkit-keyframes glow2 {
-  0% {
-    fill: gray;
-    transform: scale(.95);
-  }
-  50% {
-    fill: Violet;
-    transform: scale(1.2);
-    opacity: .8;
-  }
-  100% {
-    fill: gray;
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-@-o-keyframes glow2 {
-  0% {
-    fill: gray;
-    transform: scale(.95);
-  }
-  50% {
-    fill: Violet;
-    transform: scale(1.2);
-    opacity: .8;
-  }
-  100% {
-    fill: gray;
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-@-moz-keyframes glow2 {
   0% {
     fill: gray;
     transform: scale(.95);
