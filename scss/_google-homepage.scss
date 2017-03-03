@@ -14,20 +14,81 @@
 }
 
 .pulse0 {
-  animation: glow0 4s 12.5s;
   -webkit-animation: glow0 4s 12.5s;
+  -o-animation: glow0 4s 12.5s;
+  -moz-animation: glow0 4s 12.5s;
+  -webkit-animation: glow0 4s 12.5s;
+  animation: glow0 4s 12.5s;
 }
 
 .pulse1 {
-  animation: glow1 4s 12.5s;
   -webkit-animation: glow1 4s 12.5s;
+  -o-animation: glow1 4s 12.5s;
+  -moz-animation: glow1 4s 12.5s;
+  -webkit-animation: glow1 4s 12.5s;
+  animation: glow1 4s 12.5s;
 }
 
 .pulse2 {
-  animation: glow2 4s 12.5s;
   -webkit-animation: glow2 4s 12.5s;
+  -o-animation: glow2 4s 12.5s;
+  -moz-animation: glow2 4s 12.5s;
+  -webkit-animation: glow2 4s 12.5s;
+  animation: glow2 4s 12.5s;
 }
 
+/*button*/
+/*.play {
+    position: relative;
+    z-index: 100;
+    top: -90px;
+    left: 350px;
+    width: 70px;
+    height: 70px;
+    fill: gray;
+}*/
+
+/*button animation*/
+/*@-webkit-keyframes go {
+    0% { 
+        transform: scale(.95);  
+    }
+    100% { 
+        fill: DodgerBlue;
+        transform: scale(1);
+        opacity: .8;
+    }
+}
+@-o-keyframes go {
+    0% { 
+        transform: scale(.95);  
+    }
+    100% { 
+        fill: DodgerBlue;
+        transform: scale(1);
+        opacity: .8;
+    }
+}
+@-moz-keyframes go {
+    0% { 
+        transform: scale(.95);  
+    }
+    100% { 
+        fill: DodgerBlue;
+        transform: scale(1);
+        opacity: .8;
+    }
+}
+@keyframes go {
+    0% { 
+        transform: scale(.95);  
+    }
+    100% { 
+        fill: DodgerBlue;
+        transform: scale(1);
+        opacity: .8;
+    }
+}*/
 
 /*CSS Animation*/
 
@@ -47,7 +108,6 @@
     opacity: 1;
   }
 }
-
 @-o-keyframes glow0 {
   0% {
     fill: gray;
@@ -64,7 +124,6 @@
     opacity: 1;
   }
 }
-
 @-moz-keyframes glow0 {
   0% {
     fill: gray;
@@ -81,7 +140,6 @@
     opacity: 1;
   }
 }
-
 @keyframes glow0 {
   0% {
     fill: gray;
@@ -98,7 +156,6 @@
     opacity: 1;
   }
 }
-
 @-webkit-keyframes glow1 {
   0% {
     fill: gray;
@@ -115,7 +172,6 @@
     opacity: 1;
   }
 }
-
 @-o-keyframes glow1 {
   0% {
     fill: gray;
@@ -132,7 +188,6 @@
     opacity: 1;
   }
 }
-
 @-moz-keyframes glow1 {
   0% {
     fill: gray;
@@ -149,7 +204,6 @@
     opacity: 1;
   }
 }
-
 @keyframes glow1 {
   0% {
     fill: gray;
@@ -166,7 +220,6 @@
     opacity: 1;
   }
 }
-
 @-webkit-keyframes glow2 {
   0% {
     fill: gray;
@@ -183,7 +236,6 @@
     opacity: 1;
   }
 }
-
 @-o-keyframes glow2 {
   0% {
     fill: gray;
@@ -200,7 +252,6 @@
     opacity: 1;
   }
 }
-
 @-moz-keyframes glow2 {
   0% {
     fill: gray;
@@ -217,7 +268,6 @@
     opacity: 1;
   }
 }
-
 @keyframes glow2 {
   0% {
     fill: gray;
