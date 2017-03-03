@@ -1,24 +1,84 @@
 /* Stage */
 #stage {
-    height: 300px;
-    width: 820px;
+  height: 300px;
+  width: 820px;
 }
 
-/*Store Background Colors*/
-$color0: red;
-$color1: blue;
-$color2: green;
-
-.color0{
-  fill: $bg0;
+.pulse0,
+.pulse1,
+.pulse2{
+  transform-origin: center;
 }
 
-.color1{
-  fill: $bg1;
+.pulse0{
+  animation: glow0 4s 12.5s;
+}
+.pulse1{
+  animation: glow1 4s 12.5s;
+}
+.pulse2{
+  animation: glow2 4s 12.5s;
 }
 
-.color2{
-  fill: $bg2;
+/*CSS Animation*/
+@keyframes glow0 {
+  0% { 
+    fill: gray;
+    transform: scale(.95);
+  }
+  
+  50% { 
+    fill: DodgerBlue;
+    transform: scale(1.2);
+    opacity: .8;
+
+  }
+  
+  100%{ 
+    fill: gray;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes glow1 {
+  0% { 
+    fill: gray;
+    transform: scale(.95);
+  }
+  
+  50% { 
+    fill: MediumSpringGreen;
+    transform: scale(1.2);
+    opacity: .8;
+
+  }
+  
+  100%{ 
+    fill: gray;
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes glow2 {
+  0% { 
+    fill: gray;
+    transform: scale(.95);
+  }
+  
+  50% { 
+    fill: Violet;
+    transform: scale(1.2);
+    opacity: .8;
+
+  }
+  
+  100%{ 
+    fill: gray;
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 
@@ -32,7 +92,7 @@ input {
     margin: 0 auto;
     outline: none;
     line-height: 36px;
-    width: 50%;
+    width: 40%;
 }
 
 div {

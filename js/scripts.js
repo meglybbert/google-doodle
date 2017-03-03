@@ -1,15 +1,18 @@
-//Apply svg draw
 var google = $('svg').drawsvg();
-google.drawsvg('animate');
 
+//Random Number Generator
+var limit = 3;
+var randNum = Math.floor(Math.random() * limit);
+console.log(randNum);
 
-//Randomize Fill Color
-//Get Random Number
-var max = 3;
-var numRand = Math.floor( Math.random() * max );
-console.log(numRand);
-
-//Show Randomized Color
-//$('.cls-2.icon').attr( 'src', eval('color' + numRand) );
-
+//click on stage
+$('#stage').click(function(){
+  //animate stroke drawing
+  google.drawsvg('animate');
+  //grab the icons
+  $target = $('.cls-2.icon');
+  //apply randomized animation and color to the icons and reset the click event results
+  $target.removeClass('pulse'+randNum);
+  setTimeout("$target.addClass('pulse'+randNum);",100)  
+});
 
